@@ -74,6 +74,17 @@ h1 {
   border-color: #f5f5f5;
 }
 
+.interests {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.interests li {
+  padding: 0.5rem 0;
+  font-size: 1rem;
+}
+
 .projects {
   list-style: none;
   padding: 0;
@@ -118,3 +129,13 @@ h1 {
   margin-top: 1rem;
 }
 
+.skills {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.skills li {
+  padding: 0.5rem 0;
+  font-size: 1rem;
+}
