@@ -45,6 +45,14 @@ h1 {
   letter-spacing: -0.02em;
 }
 
+.content {
+  text-align: left;
+}
+
+.content h2 {
+  text-align: center;
+}
+
 .tagline {
   color: #888;
   font-size: 1.1rem;
