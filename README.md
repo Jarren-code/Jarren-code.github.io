@@ -9,5 +9,7 @@ Junior CS student @ CUHK-Shenzhen | AI stream + Finance minor
 
 ## Interests 
 => Machine Learning & AI
+
 => Software Engineering 
+
 => Finance
