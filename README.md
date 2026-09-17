@@ -18,3 +18,4 @@ A junior computer science student focusing on AI stream and pursuing a minor in 
 
 ## Personal projects
 [Stock analysis assistant](https://github.com/Jarren-code/Stock-analyzer)
+[Cheat sheet generator] (https://github.com/Jarren-code/Cheat-sheet-generator)
