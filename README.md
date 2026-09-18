@@ -1,5 +1,5 @@
 # Jarren's Home Page
-<https://github.com/Jarren-code.github.io>
+<https://Jarren-code.github.io>
 
 ## About Me
 <p align="center">
