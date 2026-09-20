@@ -106,18 +106,6 @@ li::marker {
   margin-top: 1rem;
 }
 
-.project-card {
-  display: grid;
-  grid-template-columns: 1fr 40px 1.4fr;
-  align-items: center;
-  padding: 1.25rem;
-  border: 1px solid #333;
-  border-radius: 10px;
-  background: #111;
-  text-align: left;
-  transition: border-color 0.2s ease, transform 0.2s ease;
-}
-
 .projects li {
   padding: 1.25rem;
   border: 1px solid #333;
@@ -147,13 +135,6 @@ li::marker {
   font-size: 0.85rem;
   opacity: 0.6;
   transition: opacity 0.2s ease;
-}
-
-.project-arrow {
-  font-size: 1.4rem;
-  color: #666;
-  text-align: center;
-  transition: color 0.2s ease, transform 0.2s ease;
 }
 
 .project-desc {
