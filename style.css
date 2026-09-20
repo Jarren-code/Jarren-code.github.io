@@ -161,3 +161,18 @@ li::marker {
   padding: 0.5rem 0;
   font-size: 1rem;
 }
+
+.experience-desc {
+  display: block;
+  list-style: none;
+  margin-top: 0.4rem;
+  padding-left: 1rem;
+  color: white;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.experience-desc li::before {
+  content: "–  ";
+  color: white;
+}
