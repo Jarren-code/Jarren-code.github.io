@@ -178,22 +178,12 @@ li::marker {
   color: white;
 }
 
-.pdf-link {
+.repo-link, .pdf-link {
     color: #0066cc;
     text-decoration: none;
     transition: color 0.2s ease;
 }
 
-.pdf-link:hover {
-    color: #48ff00;
-}
-
-.repo-link {
-    color: #0066cc;
-    text-decoration: none;
-    transition: color 0.2s ease;
-}
-
-.repo-link:hover {
+.repo-link:hover, .pdf-link:hover {
     color: #48ff00;
 }
