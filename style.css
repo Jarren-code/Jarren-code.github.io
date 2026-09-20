@@ -173,6 +173,6 @@ li::marker {
 }
 
 .experience-desc li::before {
-  content: "–  ";
+  content: "=>  ";
   color: white;
 }
