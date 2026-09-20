@@ -98,46 +98,25 @@ li::marker {
 }
 
 .projects {
-  list-style: none;
-  padding: 0;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 1rem;
+  list-style: disc;
+  padding-left: 1.5rem;
   margin-top: 1rem;
 }
 
-.projects li {
-  padding: 1.25rem;
-  border: 1px solid #333;
-  border-radius: 10px;
-  background: #111;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 0.5rem;
-  transition: border-color 0.2s ease, transform 0.2s ease;
+.projects > li {
+  padding: 0.75rem 0;
+  text-align: left;
 }
 
-.projects li:hover {
-  border-color: #f5f5f5;
-  transform: translateY(-2px);
-}
-
-.project-name {
-  display: flex;
-  flex-direction: column;
-  gap: 0.4rem;
-}
-
-.project-name a {
-  color: #f5f5f5;
-  text-decoration: none;
-  font-size: 0.85rem;
-  opacity: 0.6;
-  transition: opacity 0.2s ease;
+.projects > li > b {
+  font-size: 1.05rem;
 }
 
 .project-desc {
+  display: block;
+  list-style: circle;
+  margin-top: 0.4rem;
+  padding-left: 1.5rem;
   color: #aaa;
   font-size: 0.95rem;
   line-height: 1.5;
@@ -149,9 +128,10 @@ li::marker {
   font-size: 0.9rem;
   opacity: 0.6;
   transition: opacity 0.2s ease;
+  margin-left: 0.4rem;
 }
 
-.projects li:hover a {
+.projects a:hover {
   opacity: 1;
 }
 
