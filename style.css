@@ -114,12 +114,17 @@ li::marker {
 
 .project-desc {
   display: block;
-  list-style: circle;
+  list-style: none;
   margin-top: 0.4rem;
-  padding-left: 1.5rem;
+  padding-left: 1rem;
   color: #aaa;
   font-size: 0.95rem;
   line-height: 1.5;
+}
+
+.project-desc li::before {
+  content: "–  ";
+  color: #555;
 }
 
 .projects a {
